@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+
+#header{
+    background: url(../images/banner1.png);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* banner part start */
+
+.banner_text {
+    text-align: right;
+    padding-top: 170px;
+}
+.banner_text h2{
+    font-size: 65px;
+}
+.banner_text p{
+    margin-top: 10px;
+}
+
+.banner_btn{
+    margin: 25px 0px;
+}
+.banner_btn .btn{
+   color: white;
+   padding: 12px 20px;
+   background-color: #F15B22;
+   border-radius: 5px;
+   border: none;
+}
+.banner_btn a{
+   color: white;
+   font-size: 20px;
+}
+
+/* banner part end */
+
+
+/* my_failures part start */
+
+#my_failures{
+    padding: 70px 0px;
+}
+.my_failures{
+    display: flex;
+}
+.my_failures_text{
+    padding-top: 250px;
+    margin-left: 50px;
+}
+.my_failures_text h2{
+    font-size: 40px;
+    padding-right: 200px;
+}
+.my_failures_text h5{
+    font-size: 18px;
+    padding-right: 173px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 25px 0px;
+}
+.my_failures_text i{
+    margin: 0px 8px;
+    color: green;
+    line-height: 25px;
+}
+
+/* my_failures part end */
+
+/* my_plans part start */
+
+
+#my_plans h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 25px 0px;
+    padding-bottom: 50px;
+}
+.my_plans_1{
+    text-align: center;
+}
+.my_plans_1 h3{
+    margin-top: 20px;
+}
+.my_plans_1 p{
+    margin-top: 10px;
+}
+.my_plans{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+/* my_plans part end */
+
+/* gradient part start */
+
+#gradient{
+    margin: 100px 0px;
+}
+.gradient_img{
+    position: relative;
+}
+.gradient_img img{
+    width: 100%;
+}
+.gradient_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient( to right,#f15d22a2,#f15d2215);
+    border-radius: 8px;
+}
+
+.gradient_text{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    z-index: 6;
+    color: white;
+    font-size: 40px;
+}
+.gradient_text h2{
+    padding-right: 350px;
+}
+.gradient_text button{
+    padding: 15px 35px;
+    color: #F15B22;
+    margin-top: 15px;
+}
+.gradient_text button a{
+    color: #F15B22;
+    font-size: 20px;
+}
+
+/* gradient part end */
+
+/* footer part start */
+
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text{
+    width: 60%;
+}
+.footer_subscribe{
+    width: 40%;
+}
+#footer{
+    background-color: #151414;
+    padding: 80px 0px;
+    color: white;
+}
+.footer_text h2{
+    font-size: 45px;
+}
+.footer_text h5{
+    font-weight: 400;
+    padding-right: 360px;
+    margin: 25px 0px;
+    line-height: 20px;
+}
+.footer_text p{
+    line-height: 30px;
+}
+.footer_text i{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.footer_subscribe h2{
+    font-size: 30px;
+}
+.footer_subscribe input{
+    width: 220px;
+    height: 35px;
+    background: none;
+    color: white;
+    padding-left: 10px;
+    border-radius: 8px;
+    margin: 25px 0px;
+}
+.footer_btn{
+    margin: 10px 0px;
+}
+.footer_btn button{
+    padding: 13px 35px;
+    border: none;
+    border-radius: 8px;
+}
+.footer_btn button a{
+    color: #F15B22;
+    font-size: 20px;
+}
+
+/* footer part end */
